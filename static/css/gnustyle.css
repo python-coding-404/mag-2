@@ -1,0 +1,89 @@
+body   
+{  
+	height: 125vh;  
+	margin-top: 80px;  
+	padding: 30px;  
+	background-size: cover;  
+    	
+}  
+
+nav li p  {
+	display: inline-block;
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+ }
+.disabled {
+	color: rgba(255, 255, 255, 0.25);
+}
+.bg-light {
+	background-color: #f8f9fa !important;
+}
+.bg-dark {
+ background-color: #343a40 !important;
+}
+nav { 
+	font-family: "Roboto";
+      	
+	  background-color: #f8f9fa;  
+	 position: fixed;  
+	left: 0;  
+       right: 0;  
+top: 5px;  
+height: 40px;
+margin-bottom: 80px;
+display: flex;  
+align-items: center;    
+}  
+nav * {  
+	display: inline;  
+}  
+nav li {  
+	margin: 20px;  
+}  
+nav li a {  
+	color: black;  
+	text-decoration: none;  
+}
+.text-cap {
+
+	text-transform: capitalize;
+}
+.text-lowercase {
+	text-transform: lowercase;
+}
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.font-weight-normal {
+	font-weight: normal;
+}
+.font-weight-bold {
+	font-weight: bolder;
+}
+.font-italic {
+	font-style: italic;
+}
+.text-white {
+	color: white 
+}
+
+.text-secondary {
+	color: #6c757d;
+}
+.text-succes {
+	color: #28a745;
+}
+.text-warning {
+	color: #ffc107;
+}
+.text-danger {
+	color: #dc3545;
+}
+.text-black {
+	color: black;
+}

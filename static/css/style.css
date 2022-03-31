@@ -1,0 +1,42 @@
+nav li p {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap; }
+
+body {
+  font-family: "Roboto";
+  padding: 50px; }
+
+.disabled {
+  opacity: 0.65 !important; }
+
+.bg-light {
+  background-color: #f8f9fa !important; }
+
+.bg-dark {
+  background-color: #343a40 !important; }
+
+nav {
+  background-color: #f8f9fa;
+  position: fixed;
+  left: 0;
+  top: 0px;
+  right: 0;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center; }
+
+nav * {
+  display: inline; }
+
+nav li {
+  margin: 20px; }
+
+nav li a {
+  color: black;
+  text-decoration: none; }
